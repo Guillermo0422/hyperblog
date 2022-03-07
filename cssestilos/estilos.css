@@ -8,11 +8,31 @@ body {text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 color:rgb(5, 114, 72);}
 
+#cabecera
+{
+    background: #88d; font-size: 5rem; color: white;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 1.5rem;
+    margin: 3rem;
+}
+
+#cabecera #tagline
+{
+    font-weight: normal;
+    font-size: 2rem;
+    padding: 1rem 0,0,0;
+}
+
+
+
+
 #container{
-    width: 70;
+    width: 70%;
     padding: 1 em;
-    text-align: center;
+    text-align: left;
     border: 1px solid rgb(114, 5, 65);
+    margin: 0 auto;
 }
 
 #container h1 
